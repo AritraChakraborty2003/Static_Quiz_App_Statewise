@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/mainHolder">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="State Details"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textColor="@color/calm"
+            android:fontFamily="sans-serif-black"
+            android:layout_marginTop="10dp"
+            android:paddingTop="7dp"/>
+        <ImageView
+            android:id="@+id/StateImg"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:paddingLeft="10dp"
+            android:text="Name:"
+            android:textColor="@color/black"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/nameDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter name"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:textSize="24dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:paddingLeft="10dp"
+            android:text="population:"
+            android:textColor="@color/black"
+            android:textSize="24dp" />
+        <TextView
+            android:id="@+id/PopulationDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Population"
+            android:textSize="24dp"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:paddingLeft="10dp"
+            android:text="Capital:"
+            android:textColor="@color/black"
+            android:textSize="24dp" />
+        <TextView
+            android:id="@+id/CapitalDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Capital"
+            android:textSize="24dp"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:paddingLeft="10dp"
+            android:text="GDP:"
+            android:textColor="@color/black"
+            android:textSize="24dp" />
+        <TextView
+            android:id="@+id/GdpDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gdp"
+            android:textSize="24dp"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:paddingLeft="10dp"
+            android:text="CM:"
+            android:textColor="@color/black"
+            android:textSize="24dp" />
+        <TextView
+            android:id="@+id/CmDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CM name"
+            android:textSize="24dp"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:paddingLeft="10dp"
+            android:text="Ruling Party:"
+            android:textColor="@color/black"
+            android:textSize="24dp" />
+        <TextView
+            android:id="@+id/RulingpartyDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="rulingparty"
+            android:textSize="24dp"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:paddingLeft="10dp"
+            android:text="GDP-per-capita:"
+            android:textColor="@color/black"
+            android:textSize="24dp" />
+        <TextView
+            android:id="@+id/Gdppercapita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="gdp-per-capita"
+            android:textSize="24dp"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>
